@@ -1,0 +1,39 @@
+{
+  "name": "avam-scratch",
+  "version": "1.0.0",
+  "description": "A Typescript &amp; Javascript ScratchPad",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "exec": "ts-node",
+    "build": "tsc",
+    "dev" : "nodemon ./src/vanilla-pg/xt-repl-sub.ts",
+    "dev:debug" : "nodemon --inspect ./src/vanilla-pg/index.ts",
+    "watch": "tsmon --inspect ./src/vanilla-pg/index.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vickykatoch/avam-scratch.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vickykatoch/avam-scratch/issues"
+  },
+  "homepage": "https://github.com/vickykatoch/avam-scratch#readme",
+  "dependencies": {
+    "ramda": "^0.26.1",
+    "rxjs": "^6.5.2",
+    "ts-node": "^8.3.0",
+    "typescript": "^3.5.2"
+  },
+  "devDependencies": {
+    "@types/jest": "^24.0.15",
+    "@types/node": "^12.0.12",
+    "jest": "^24.8.0",
+    "nodemon": "^1.19.1",
+    "ts-jest": "^24.0.2",
+    "tsmon": "^0.5.1"
+  }
+}
